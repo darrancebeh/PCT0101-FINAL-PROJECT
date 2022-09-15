@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>My Tourism Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="menu" class="dropdown">
+            <a class="menuClose" onclick="closeMenu()"><span>✖</span></a>
+            <div class="dropdown-list">
+                <a class="active" href="index.html">Home</a><br><br>
+                <a class="inactive" href="introduction.html">Introduction</a><br><br>
+                <a class="inactive" href="projects.html">Projects</a>
+            </div>
+        </div>
+        <span class="hamburger" onclick="openMenu()">☰</span>
+
+        <nav>
+            <ul class="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="inactive" href="introduction.html">Introduction</a></li>
+                <li><a class="inactive" href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href:""><button><span>Contact Me</span></button></a>
+    </header>
+
+    <div class="banner-background"></div>
+    <div class="banner-text">
+        <h5><span>WELCOME TO MY WEBSITE</span></h5>
+        <h1><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</span></h1>
+    </div>
+
+</body>
+
+<script>
+    closeMenu();
+</script>
+</html>
