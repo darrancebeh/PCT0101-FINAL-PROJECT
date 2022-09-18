@@ -157,3 +157,10 @@ button:hover {
 }
 
 /*Hamburger END*/
+
+/*H1 Styling*/
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px ;
+}
