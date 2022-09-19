@@ -6,50 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
-    <title>My Tourism Webpage</title>
+    <title>Enter: Denmark!</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div id="menu" class="dropdown">
-            <a class="menuClose" onclick="closeMenu()"><span>✖</span></a>
-            <div class="dropdown-list">
-                <a class="active" href="index.html">Home</a><br><br>
-                <a class="inactive" href="introduction.html">Introduction</a><br><br>
-                <a class="inactive" href="introduction.html">Introduction</a><br><br>
-                <a class="inactive" href="introduction.html">Introduction</a><br><br>
-                <a class="inactive" href="introduction.html">Introduction</a><br><br>
-                <a class="inactive" href="introduction.html">Introduction</a><br><br>
-                <a class="inactive" href="introduction.html">Introduction</a><br><br>
-                <a class="inactive" href="introduction.html">Introduction</a>
-                
-            </div>
+    <div class="nav-container">
+        <div class="nav-bar">
+
         </div>
-        <span class="hamburger" onclick="openMenu()">☰</span>
+    </div>
 
-        <nav>
-            <ul class="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a class="inactive" href="introduction.html">Introduction</a></li>
-                <li><a class="inactive" href="attractions.html">Attractions</a></li>
-                <li><a class="inactive" href="attractions.html">Attractions</a></li>
-                <li><a class="inactive" href="attractions.html">Attractions</a></li>
-                <li><a class="inactive" href="attractions.html">Attractions</a></li>
-                <li><a class="inactive" href="attractions.html">Attractions</a></li>
-                <li><a class="inactive" href="attractions.html">Attractions</a></li>
-                <li><a class="inactive" href="attractions.html">Attractions</a></li>
-
-
-            </ul>
-        </nav>
-        <a class="cta" href:""><button><span>Contact Me</span></button></a>
-    </header>
-
+    <div class="landing-container">
+        <div class="landing-image">
+            <h1 id="denHeader">Welcome to <br>Denmark</h1>
+            <img src="Images\cphHeader.jpg">
+        </div>
+    </div>
+    </div>
 </body>
 
-<script>
-    closeMenu();
-</script>
+<style>
+    body {
+        animation: fadeIn ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+</style>
+
 </html>
