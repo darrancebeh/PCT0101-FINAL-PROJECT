@@ -1,3 +1,5 @@
+/* Master Styling START*/
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
@@ -12,6 +14,30 @@ h1 {
 a {
     color: black;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Master Styling END */
+
 /*index.html START*\
 
 /* Navigation bar START */
@@ -80,6 +106,8 @@ nav {
 .landing-container{
     position: relative;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 #denHeader
