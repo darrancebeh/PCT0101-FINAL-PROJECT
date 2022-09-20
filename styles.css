@@ -9,6 +9,8 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     color: black;
+    padding: 10px;
+    margin: 10px;
 }
 
 a {
@@ -112,8 +114,7 @@ nav {
 
 #denHeader
 {
-    color: black;
-    position: absolute;
+    background-color: black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -121,6 +122,16 @@ nav {
     animation: textIn ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    transition: 1s ease;
+}
+
+#denHeader:hover{
+    background-color: transparent;
+    color: rgba(0,0,0,0);
+    border-width: 1px;
 }
 
 @keyframes textIn{
@@ -133,6 +144,7 @@ nav {
         top: 40%;
         opacity: 1;
         font-size: 100px;
+        border: 5px solid white;
     }
 }
 
