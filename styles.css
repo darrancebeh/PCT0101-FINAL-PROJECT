@@ -2,7 +2,35 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
+
+.nav-bar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
 /*index.html START*\
+
+/* Navigation bar START */
+
+.navbar {
+    left: 34px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-bar li 
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+
+/* Navigation bar END */
+
+
 
 /*Landing container START*/
 
