@@ -79,3 +79,9 @@ h1 {
 
 
 /*index.html END*\
+/*fnb.html START*/
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
