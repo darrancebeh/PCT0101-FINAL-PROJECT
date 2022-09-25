@@ -85,3 +85,16 @@ h1 {
     background-color: #f44336;
     color: white;
 }
+
+.rinfo1 {
+    display: inline-flex;
+    width: 50%;
+}
+
+.description {
+    display: inline-block;
+    width: 50%;
+    padding: 5%;
+    background-color: yellow;
+    font-family: 'Roboto', sans-serif;
+}
