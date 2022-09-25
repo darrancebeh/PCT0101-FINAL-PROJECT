@@ -88,13 +88,17 @@ h1 {
 
 .rinfo1 {
     display: inline-flex;
-    width: 50%;
+    width: 100%;
 }
 
 .description {
     display: inline-block;
-    width: 50%;
-    padding: 5%;
-    background-color: yellow;
+    width: 100%;
+    padding: 2%;
+    background-color: #f3ebd4;
     font-family: 'Roboto', sans-serif;
+}
+
+.description h2 {
+    font-family: 'Ink free', Times, serif;
 }
