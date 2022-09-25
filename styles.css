@@ -88,13 +88,28 @@ h1 {
 
 .rinfo1 {
     display: inline-flex;
-    width: 50%;
+    width: 100%;
 }
 
 .description {
     display: inline-block;
-    width: 50%;
-    padding: 5%;
-    background-color: yellow;
+    width: 100%;
+    padding: 2%;
+    background-color: #014d63;
     font-family: 'Roboto', sans-serif;
+}
+
+.description h2 {
+    font-family: 'Segoe print', Times, serif;
+    color: #cbcac2;
+}
+
+.description p {
+    font-family: 'Ink free', Times, serif;
+    color: #5bc2e7;
+    font-size: 20px;
+}
+
+.description a {
+    color: #5bc2e7;
 }
