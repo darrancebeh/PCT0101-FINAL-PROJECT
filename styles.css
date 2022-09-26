@@ -1,48 +1,97 @@
+/* Master Styling START*/
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
-
 .nav-bar {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    color: black;
+    padding: 10px;
+    margin: 10px;
 }
+a {
+    color: black;
+}
+body {
+    padding: 0;
+    margin: 0;
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+img {
+    padding: 0;
+    margin: 0;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Master Styling END */
 /*index.html START*\
-
 /* Navigation bar START */
-
-.navbar {
-    left: 34px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav {
+    background-color: white;
+    top: 0px;
     text-align: center;
+    width: 100%;
+    position: sticky;
+    text-decoration: none;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 300;
 }
-
+.nav-bar {
+    color: black;
+}
+.nav-bar a {
+    text-decoration: none;
+}
 .nav-bar li 
 {
     display: inline-block;
     padding: 0px 20px;
+    text-decoration: none;
+    
 }
-
-
-
+.nav-bar li a {
+    transition: all 0.3s ease 0s;
+    border-bottom: 1px transparent;
+}
+.nav-bar a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+.nav-bar .inactive::after {
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+.nav-bar .inactive:hover::after {
+    transform: scale(1,1);
+}
+.nav-bar .active {
+    color: black;
+    border-bottom: 2px solid black;
+}
 /* Navigation bar END */
-
-
-
 /*Landing container START*/
-
 .landing-container{
     position: relative;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
 #denHeader
 {
-    color: black;
-    position: absolute;
+    background-color: black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -50,8 +99,16 @@ h1 {
     animation: textIn ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    transition: 1s ease;
 }
-
+#denHeader:hover{
+    background-color: transparent;
+    color: rgba(0,0,0,0);
+    border-width: 1px;
+}
 @keyframes textIn{
     from{
         top: 100%;
@@ -62,23 +119,20 @@ h1 {
         top: 40%;
         opacity: 1;
         font-size: 100px;
+        border: 5px solid white;
     }
 }
-
 .landing-image {
     padding: 0;
 }
-
 .landing-image img {
     max-width: 100%;
     height: auto;
     margin: auto;
 }
-
 /* Landing Container END */
 
-
-/*index.html END*\
+ /*index.html END*\
 /*fnb.html START*/
 .alert {
     padding: 20px;
@@ -138,37 +192,3 @@ h1 {
 .description1 a {
     color: #144f77;
 }
-/*safety.html START*\
-
-/* Landing Container START */
-
-.main {
-    background: url("./Images/Health/ And/Safety/background.png") no-repeat;
-}
-
-@keyframes textIn{
-    from{
-        top: 100%;
-        opacity: 0;
-        font-size: 15px;
-    }
-    to{
-        top: 40%;
-        opacity: 1;
-        font-size: 100px;
-    }
-}
-
-.landing-image {
-    padding: 0;
-}
-
-.landing-image img {Update
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-}
-
-/* Landing Container END */
-
-/*safety.html END*\
