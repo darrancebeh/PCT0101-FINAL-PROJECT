@@ -134,3 +134,7 @@ h1 {
     font-family: 'courier new', monospace;
     color: #2f4156;
 }
+
+.description a {
+    color: #144f77;
+}
