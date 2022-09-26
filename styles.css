@@ -146,6 +146,23 @@ h1 {
     background: url("./Images/Health/ And/Safety/background.png") no-repeat;
 }
 
+@keyframes textIn{
+    from{
+        top: 100%;
+        opacity: 0;
+        font-size: 15px;
+    }
+    to{
+        top: 40%;
+        opacity: 1;
+        font-size: 100px;
+    }
+}
+
+.landing-image {
+    padding: 0;
+}
+
 .landing-image img {Update
     max-width: 100%;
     height: auto;
