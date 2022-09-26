@@ -1,4 +1,8 @@
 /* Master Styling START*/
+html {
+    scroll-behavior: smooth;
+  }
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
@@ -168,6 +172,20 @@ nav {
   transform: translateY(-10px);
 }
 /* Landing Container END */
+
+/* Landing Contents START */
+
+.land-head {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    font-size: 66px;
+}
+
+
+
+/* Landing Contents END */
 
  /*index.html END*\
 /*fnb.html START*/
