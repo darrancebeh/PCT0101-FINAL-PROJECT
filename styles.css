@@ -134,3 +134,21 @@ h1 {
     font-family: 'courier new', monospace;
     color: #2f4156;
 }
+
+/*safety.html START*\
+
+/* Landing Container START */
+
+.main {
+    background: url("./Images/Health/ And/Safety/background.png") no-repeat;
+}
+
+.landing-image img {Update
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/* Landing Container END */
+
+/*safety.html END*\
