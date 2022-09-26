@@ -1,84 +1,193 @@
+/* Master Styling START*/
+html {
+    scroll-behavior: smooth;
+  }
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
-
 .nav-bar {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    color: black;
+    padding: 10px;
+    margin: 10px;
 }
+a {
+    color: black;
+}
+body {
+    padding: 0;
+    margin: 0;
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+img {
+    padding: 0;
+    margin: 0;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Master Styling END */
 /*index.html START*\
-
 /* Navigation bar START */
-
-.navbar {
-    left: 34px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav {
+    background-color: white;
+    top: 0px;
     text-align: center;
+    width: 100%;
+    position: sticky;
+    text-decoration: none;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 300;
 }
-
+.nav-bar {
+    color: black;
+}
+.nav-bar a {
+    text-decoration: none;
+}
 .nav-bar li 
 {
     display: inline-block;
     padding: 0px 20px;
+    text-decoration: none;
+    
 }
-
-
-
+.nav-bar li a {
+    transition: all 0.3s ease 0s;
+    border-bottom: 1px transparent;
+}
+.nav-bar a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+.nav-bar .inactive::after {
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+.nav-bar .inactive:hover::after {
+    transform: scale(1,1);
+}
+.nav-bar .active {
+    color: black;
+    border-bottom: 2px solid black;
+}
 /* Navigation bar END */
-
-
-
 /*Landing container START*/
-
 .landing-container{
     position: relative;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
-#denHeader
-{
-    color: black;
+.landing-text h1 {
     position: absolute;
-    position: absolute;
-    top: 50%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: textIn ease 3s;
+    animation: textIn ease 2.66s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    color: white;
+    mix-blend-mode: difference;
+    white-space: nowrap;
+}
+
+.landing-text span {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+    color: white;
+    mix-blend-mode: color-dodge;
+    position: absolute;
+    top: 41%;
+    left: 66.6%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    white-space: nowrap;
+    animation: opac ease 5.66s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    box-shadow: 5px 10px #000000;
+}
+
+@keyframes opac {
+    0%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes textIn{
     from{
-        top: 100%;
-        opacity: 0;
-        font-size: 15px;
+        font-size: 0px;
     }
     to{
-        top: 40%;
-        opacity: 1;
-        font-size: 100px;
+        font-size: 80px;
     }
 }
-
 .landing-image {
     padding: 0;
 }
-
 .landing-image img {
     max-width: 100%;
     height: auto;
     margin: auto;
 }
 
+.nav-button {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    padding: 14px 22px;
+    top: 60%;
+    left: 70%;
+    background-color: white; 
+    font-size: 24px;
+    border-radius: 12px;
+    transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.nav-button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-10px);
+}
 /* Landing Container END */
 
+/* Landing Contents START */
 
-/*index.html END*\
+.land-head {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    font-size: 66px;
+}
+
+
+
+/* Landing Contents END */
+
+ /*index.html END*\
 /*fnb.html START*/
 .alert {
     padding: 20px;
@@ -138,37 +247,3 @@ h1 {
 .description1 a {
     color: #144f77;
 }
-/*safety.html START*\
-
-/* Landing Container START */
-
-.main {
-    background: url("./Images/Health/ And/Safety/background.png") no-repeat;
-}
-
-@keyframes textIn{
-    from{
-        top: 100%;
-        opacity: 0;
-        font-size: 15px;
-    }
-    to{
-        top: 40%;
-        opacity: 1;
-        font-size: 100px;
-    }
-}
-
-.landing-image {
-    padding: 0;
-}
-
-.landing-image img {Update
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-}
-
-/* Landing Container END */
-
-/*safety.html END*\
