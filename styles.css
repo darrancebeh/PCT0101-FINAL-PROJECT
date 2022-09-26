@@ -89,37 +89,54 @@ nav {
     margin: 0;
     padding: 0;
 }
-#denHeader
-{
-    background-color: black;
+.landing-text h1 {
     position: absolute;
-    top: 50%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: textIn ease 3s;
+    animation: textIn ease 2.66s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     color: white;
-    padding: 20px;
-    margin: 20px;
-    transition: 1s ease;
+    mix-blend-mode: difference;
+    white-space: nowrap;
 }
-#denHeader:hover{
-    background-color: transparent;
-    color: rgba(0,0,0,0);
-    border-width: 1px;
+
+.landing-text span {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+    color: white;
+    mix-blend-mode: color-dodge;
+    position: absolute;
+    top: 41%;
+    left: 66.6%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    white-space: nowrap;
+    animation: opac ease 5.66s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    box-shadow: 5px 10px #000000;
 }
+
+@keyframes opac {
+    0%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes textIn{
     from{
-        top: 100%;
-        opacity: 0;
-        font-size: 15px;
+        font-size: 0px;
     }
     to{
-        top: 40%;
-        opacity: 1;
-        font-size: 100px;
-        border: 5px solid white;
+        font-size: 80px;
     }
 }
 .landing-image {
@@ -129,6 +146,26 @@ nav {
     max-width: 100%;
     height: auto;
     margin: auto;
+}
+
+.nav-button {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    padding: 14px 22px;
+    top: 60%;
+    left: 70%;
+    background-color: white; 
+    font-size: 24px;
+    border-radius: 12px;
+    transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.nav-button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-10px);
 }
 /* Landing Container END */
 
