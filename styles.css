@@ -257,3 +257,13 @@ nav {
     position: relative;
 }
 /*safety.html END*/
+
+/*shopping.html START*/
+.wrapper{
+    background: url("./Images/ShoppingAndSouvenirbackground.jpg");
+    height: 1150vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+/*shopping.html END*/
