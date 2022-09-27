@@ -109,8 +109,10 @@ nav {
 .landing-text span {
     font-family: 'Inter Tight', sans-serif;
     font-weight: 400;
-    color: white;
-    mix-blend-mode: color-dodge;
+    font-size: 72px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(241,195,203,1) 31%, rgba(232,156,170,1) 50%, rgba(224,124,143,1) 64%, rgba(198,12,48,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     position: absolute;
     top: 41%;
     left: 66.6%;
@@ -120,7 +122,6 @@ nav {
     animation: opac ease 5.66s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    box-shadow: 5px 10px #000000;
 }
 
 @keyframes opac {
@@ -154,15 +155,18 @@ nav {
 
 .nav-button {
     font-family: 'Inter Tight', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     position: absolute;
     padding: 14px 22px;
     top: 60%;
-    left: 70%;
-    background-color: white; 
+    background-color: rgba(255,255,255,0.9);
     font-size: 24px;
     border-radius: 12px;
     transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
+    border: 2px solid white;
+    animation: slideIn ease 5.66s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .nav-button:hover {
@@ -170,6 +174,23 @@ nav {
   background-color: #1A1A1A;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-10px);
+}
+
+@keyframes slideIn {
+    0%{
+        left: 0%;
+        opacity: 0%;
+    }
+    47% {
+        left: 0%;
+        opacity: 0%;
+    }
+    60% {
+        opacity: 0%;
+    }
+    100% {
+        left: 70%;
+    }
 }
 /* Landing Container END */
 
@@ -195,7 +216,13 @@ nav {
     margin-bottom: 50px;
 }
 
+.land-dir a {
+    text-decoration: none;
+}
+
 .dir-item {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 200;
     text-align: center;
     background-color: #444;
     color: #fff;
@@ -205,12 +232,14 @@ nav {
     transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
 }
 
+
+
 .dir-item:hover {
     cursor: pointer;
     color: #fff;
     background-color: #1A1A1A;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-10px);
+    transform: translateY(-9px);
 }
 
 /* Landing Contents END */
@@ -286,3 +315,43 @@ nav {
 
 /*shopping.html START*/
 /*shopping.html END*/
+
+/* credits.html START */
+.credDivider{
+    height: 1px;
+    width: 90%;
+    background-color: gray;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.credDesc h2{
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.credLink {
+    position: relative;
+    top: -10px;
+    text-align: center;
+}
+
+.credButton {
+    padding: 14px 22px;
+    background-color: white; 
+    font-size: 24px;
+    border-radius: 12px;
+    transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.credButton {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 200;
+}
+
+.credButton:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+}
