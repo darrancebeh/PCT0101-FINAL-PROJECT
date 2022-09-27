@@ -257,7 +257,7 @@ nav {
     width: 100%;
 }
 
-.descriptionrestaurant {
+.descRestaurant {
     display: inline-block;
     width: 100%;
     padding: 2%;
@@ -265,24 +265,24 @@ nav {
     font-family: 'Roboto', sans-serif;
 }
 
-.descriptionrestaurant h2 {
+.descRestaurant h2 {
     font-family: 'Segoe print', Times, serif;
     color: #cbcac2;
 }
 
-.descriptionrestaurant p {
+.descRestaurant p {
     font-family: 'Ink free', Times, serif;
     color: #5bc2e7;
     font-size: 20px;
 }
 
-.descriptionrestaurant a {
+.descRestaurant a {
     color: #5bc2e7;
 }
 /*fnb.html END*/
 
 /*transportation.html START*/
-.descriptiontransportation {
+.descTransportation {
     display: inline-block;
     width: 100%;
     padding: 2%;
@@ -290,22 +290,22 @@ nav {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.descriptiontransportation h2 {
+.descTransportation h2 {
     font-family: 'Garamond', serif;
     color: #144f77;
 }
 
-.descriptiontransportation p, 
-.descriptiontransportation ul {
+.descTransportation p, 
+.descTransportation ul {
     font-family: 'courier new', monospace;
     color: #2f4156;
 }
 
-.descriptiontransportation a {
+.descTransportation a {
     color: #144f77;
 }
 
-.subject {
+.subjTransportation {
         color: red;
 }
 
@@ -324,6 +324,7 @@ th {
 td {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/*transportation.html END*/
 /*safety.html START*/
 
 /*safety.html END*/
