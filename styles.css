@@ -127,7 +127,7 @@ nav {
     0%{
         opacity: 0;
     }
-    50% {
+    47% {
         opacity: 0;
     }
     100% {
@@ -183,7 +183,35 @@ nav {
     font-size: 66px;
 }
 
+.land-dir {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 10px;
+    background-color: #fff;
+    position: relative;
+    left: 21%;
+    top: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.dir-item {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.dir-item:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-10px);
+}
 
 /* Landing Contents END */
 
