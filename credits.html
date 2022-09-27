@@ -14,17 +14,21 @@
     </nav>
     <h1 class="credHead">CREDITS</h1>
     <div class="cred-container"> 
-        <h2>DARRANCE BEH HENG SHEK<br>( Student ID: 1211108266 )</h2>
+        
         <div class="cred-member">
+            <h2 class="member-name">DARRANCE BEH HENG SHEK<br>( Student ID: 1211108266 )</h2>
             <div class="member-pic">
                 <img src="\Images\darrance1.png" style="height: 350px; width: auto;"">
+                <div class="cv-nav">
+                    <a href=""><button class="cv-button">View Member's CV</button></a>
+                </div>
                 
             </div>
 
             <div class="member-desc">
                 <ul>
                     <li><p>Acted as the group leader and provided guidance throughout the project.</p></li>
-                    <li><p>Assigned tasks and answered various questions by members.</p></li>
+                    <li><p>Assigned tasks and answered questions by members.</p></li>
                     <li><p>Designed and coded the majority of the website.</p></li>
                     <li><p>Wholly responsible for the navigation bar, landing page and credits page.</p></li>
                     <li><p>Responsible for the overall aesthetics, design and presentation of the website.</p></li>
@@ -33,7 +37,7 @@
                     <li><p>Responsible of keeping track of progress to meet deadline.</p></li>
                 </ul>
 
-                <span>Responsible Webpages:</span>
+                <span>Responsible Webpages: <br><a href="index.html">index.html</a>, <a href="credits.html">credits.html</a>, <a href="activities.html">activities.html</a>, <a href="accomodation.html">accomodation.html</a></span>, <a href="shopping.html">shopping.html</a>( design ), <a href="safety.html">safety.html</a> ( design ).
 
             </div>
         </div>
@@ -61,7 +65,7 @@
 
     .cred-nav-back {
         height: 50px;
-        transition: .5s ease all;
+        transition: .33s ease all;
     }
 
     .cred-nav-back:hover{
@@ -87,8 +91,34 @@
         display: inline-block;  
     }
 
+    .member-name {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 700;
+    }
+
     .member-pic {
         float: left;
+    }
+
+    .cv-nav {
+        text-align: center;
+    }
+
+    .cv-button {
+        width: 350px;
+        height: 95px;
+        border-radius: 10px;
+        border: 3px solid black;
+        background-color: white;
+        font-size: 35px;
+        transition: .4s ease all;
+    }
+
+    .cv-button:hover{
+        cursor: pointer;
+        background-color: black;
+        border: 3px solid white;
+        color: white;
     }
 
     .member-desc {
@@ -98,6 +128,11 @@
     .member-desc p {
         font-family: 'Inter Tight', sans-serif;
         font-weight: 200;
+    }
+
+    .member-desc span {
+        position: relative;
+        left: 20px;
     }
 
 </style>
