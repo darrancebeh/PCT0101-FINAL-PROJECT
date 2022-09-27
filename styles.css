@@ -276,6 +276,10 @@ nav {
     color: #144f77;
 }
 
+.subtitle li, h2, u {
+        color: red;
+}
+
 /*safety.html START*/
 
 /*safety.html END*/
