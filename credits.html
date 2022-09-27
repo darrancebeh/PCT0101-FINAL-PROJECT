@@ -7,12 +7,97 @@
     <title>Denmark: Credits</title>
 </head>
 <body>
-    <header>
-        <h1 class="credHead">CREDITS</h1>
-    </header>
+    <nav>
+        <div class="cred-nav-back" onclick="history.back()">
+            <span class="cred-comment">Click To Return</span>
+        </div>
+    </nav>
+    <h1 class="credHead">CREDITS</h1>
+    <div class="cred-container"> 
+        <h2>DARRANCE BEH HENG SHEK<br>( Student ID: 1211108266 )</h2>
+        <div class="cred-member">
+            <div class="member-pic">
+                <img src="\Images\darrance1.png" style="height: 350px; width: auto;"">
+                
+            </div>
+
+            <div class="member-desc">
+                <ul>
+                    <li><p>Acted as the group leader and provided guidance throughout the project.</p></li>
+                    <li><p>Assigned tasks and answered various questions by members.</p></li>
+                    <li><p>Designed and coded the majority of the website.</p></li>
+                    <li><p>Wholly responsible for the navigation bar, landing page and credits page.</p></li>
+                    <li><p>Responsible for the overall aesthetics, design and presentation of the website.</p></li>
+                    <li><p>Organized the tidiness of the code and naming of class variables.</p></li>
+                    <li><p>Responsible to lead and guide members of the team.</p></li>
+                    <li><p>Responsible of keeping track of progress to meet deadline.</p></li>
+                </ul>
+
+                <span>Responsible Webpages:</span>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 
 <style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        background-color: aliceblue;
+        top: 0px;
+        text-align: center;
+        width: 100%;
+        position: sticky;
+        text-decoration: none;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 300;
+    }
+
+    .cred-nav-back {
+        height: 50px;
+        transition: .5s ease all;
+    }
+
+    .cred-nav-back:hover{
+        cursor: pointer;
+        background-color: black;
+    }
+
+    .cred-nav-back:hover .cred-comment{
+        color: white;
+    }
+
+    .cred-container {
+        margin-left: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .cred-comment {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        margin: auto;
+        display: inline-block;  
+    }
+
+    .member-pic {
+        float: left;
+    }
+
+    .member-desc {
+        float: left;
+    }
     
+    .member-desc p {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 200;
+    }
+
 </style>
