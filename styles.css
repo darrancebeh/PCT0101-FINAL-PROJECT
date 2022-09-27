@@ -251,7 +251,7 @@ nav {
 /*safety.html START*/
 .background_image{
     background: url("./Images/HealthAndSafetybackground.png");
-    height: 1000vh;
+    height: 550vh;
     background-size: cover;
     background-position: center center;
     position: relative;
