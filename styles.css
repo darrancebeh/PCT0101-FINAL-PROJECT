@@ -249,21 +249,8 @@ nav {
 }
 
 /*safety.html START*/
-.background_image{
-    background: url("./Images/HealthAndSafetybackground.png");
-    height: 550vh;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-}
+
 /*safety.html END*/
 
 /*shopping.html START*/
-.wrapper{
-    background: url("./Images/ShoppingAndSouvenirbackground.jpg");
-    height: 1140vh;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-}
 /*shopping.html END*/
