@@ -247,3 +247,13 @@ nav {
 .descriptiontransportation a {
     color: #144f77;
 }
+
+/*safety.html START*/
+.background_image{
+    background: url("./Images/HealthAndSafetybackground.png");
+    height: 1000vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+/*safety.html END*/
