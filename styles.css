@@ -622,3 +622,28 @@ td {
     background-color: #1A1A1A;
 }
 
+/*Attraction.html START*/
+.hell{
+    font-size: 50px;
+}
+.heaven{
+    font-size:30px;
+}
+.cover{
+    object-fit: cover;
+}
+.boxed{
+    border: 1px solid black;
+    max-width: 87%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    left: 5%;
+}
+.bruh{
+    width: 95%;
+    margin-left:2%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
