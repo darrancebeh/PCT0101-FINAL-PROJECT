@@ -332,6 +332,55 @@ td {
 /*shopping.html START*/
 /*shopping.html END*/
 
+/* accomodation.html START */
+
+.acHeader {
+    text-align: center;
+}
+
+.acHead-container h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.acHeader {
+    border: 1px solid black;
+}
+
+.acList-container {
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+.acList-container p {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    position: relative;
+    top: 20px;
+}
+
+.acDesc p {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.acPic1 {
+    display: inline-block;
+}
+
+.acPic2 {
+    display: inline-block;
+}
+
+.acPic3 {
+    display: inline-block;
+}
+
 /* credits.html START */
 .credDivider{
     height: 1px;
@@ -371,3 +420,4 @@ td {
     color: #fff;
     background-color: #1A1A1A;
 }
+
