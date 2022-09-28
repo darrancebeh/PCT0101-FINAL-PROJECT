@@ -16,6 +16,7 @@ h1 {
 }
 a {
     color: black;
+    text-decoration: none;
 }
 body {
     padding: 0;
@@ -344,13 +345,21 @@ td {
 }
 
 .acHeader {
+    position: relative;
+    top: -10px;
     border: 1px solid black;
 }
 
+.acComment {
+    text-align: center;
+}
+
 .acList-container {
+    padding: 0;
+    margin: 0;
     text-align: center;
     position: relative;
-    top: -20px;
+    top: -50px;
 }
 
 .acList-container p {
@@ -371,14 +380,65 @@ td {
 
 .acPic1 {
     display: inline-block;
+    margin-right: 20px;
 }
 
 .acPic2 {
     display: inline-block;
+    margin-right: 20px;
 }
 
 .acPic3 {
     display: inline-block;
+}
+
+.acPic1 img {
+    width: 100%;
+    transition: .6s ease-in-out;
+    
+}
+
+.acPic2 img {
+    width: 100%;
+    transition: .6s ease-in-out;
+    
+}
+
+.acPic3 img {
+    width: 100%;
+    transition: .6s ease-in-out;
+    
+}
+
+.acPic1 img:hover {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.acPic2 img:hover {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.acPic3 img:hover {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.acTitle p {
+    position: relative;
+    top: -20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.acTitle p {
+    transition: .44s ease all;
+}
+
+.acTitle:hover p{
+    background-color: black;
+    color: white;
 }
 
 /* credits.html START */
