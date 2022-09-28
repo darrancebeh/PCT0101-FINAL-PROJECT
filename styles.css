@@ -372,16 +372,21 @@ td {
 
 /* accomodation.html START */
 
-.acHeader {
+.header {
     text-align: center;
 }
 
-.acHead-container h1 {
+.header-container h1 {
     font-size: 50px;
     font-weight: 700;
 }
 
-.acHeader {
+.header-container h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+}
+
+.header {
     position: relative;
     top: -10px;
     border: 1px solid black;
@@ -431,19 +436,19 @@ td {
 
 .acPic1 img {
     width: 100%;
-    transition: .6s ease-in-out;
+    transition: .4s ease-in-out;
     
 }
 
 .acPic2 img {
     width: 100%;
-    transition: .6s ease-in-out;
+    transition: .4s ease-in-out;
     
 }
 
 .acPic3 img {
     width: 100%;
-    transition: .6s ease-in-out;
+    transition: .4s ease-in-out;
     
 }
 
@@ -501,6 +506,12 @@ td {
     border: 3px solid black;
     padding: 5px;
     padding-top: 8px;
+}
+
+.hotelContainer h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    text-align: center;
 }
 
 .acHEPic {
