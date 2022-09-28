@@ -86,6 +86,7 @@ nav {
     justify-content: center;
     overflow: auto;
     z-index: 300;
+    border-bottom: 3px solid black;
 }
 .nav-bar {
     color: black;
@@ -483,6 +484,16 @@ td {
     font-size: 40px;
 }
 
+#acHostels h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#acBeds h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
 .hotelHE-container {
     display: inline-block;
     margin-left: 50px;
@@ -494,7 +505,11 @@ td {
 
 .acHEPic {
     float: left;
-    height: 100%;
+}
+
+.acHEPic img {
+    width: 550px;
+    max-height: 366px;
 }
 
 .HEPicDesc {
