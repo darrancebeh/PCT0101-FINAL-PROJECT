@@ -37,7 +37,35 @@ img {
         opacity: 1;
     }
 }
+
+.divider {
+    height: 1px;
+    width: 90%;
+    background-color: black;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#topButton {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 10000;
+    font-size: 18px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
+#topButton i {
+    font-size: 100px;
+}
+
 /* Master Styling END */
+
 /*index.html START*\
 /* Navigation bar START */
 nav {
@@ -430,10 +458,11 @@ td {
     top: -20px;
     border: 2px solid black;
     text-align: center;
-}
-
-.acTitle p {
+    border-radius: 6px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
     transition: .44s ease all;
+
 }
 
 .acTitle:hover p{
