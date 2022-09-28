@@ -59,10 +59,17 @@ img {
     background-color: red;
     border: 2px solid black;
     border-radius: 50%;
+    transition: .44s ease all;
   }
 
 #topButton i {
     font-size: 100px;
+}
+
+#topButton:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 /* Master Styling END */
@@ -469,6 +476,19 @@ td {
 .acTitle:hover p{
     background-color: black;
     color: white;
+}
+
+#acHotels h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.hotelContainer {
+    text-align: center;
+}
+
+.hotelPic {
+    display: inline-block;
 }
 
 /* credits.html START */
