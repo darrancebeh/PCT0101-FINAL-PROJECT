@@ -6,12 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
-        <title>My Tourism Webpage</title>
+        <title>Denmark: Accomodation</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     
     <body>
@@ -32,8 +34,8 @@
             <i class="material-icons">arrow_upward</i>
         </button>
 
-        <div class="acHead-container">
-            <h1 class="acHeader">Accomodation</h1>
+        <div class="header-container">
+            <h1 class="header">Accomodation</h1>
             <h2 class="acComment">What is your prefered type of accomodation?</h2>
         </div>
 
@@ -45,7 +47,7 @@
                     <p>Boutique hotels, seaside hotels, cheap <br>hotels in the capital. They’re all here!</p>
                 </div>
                 <div class="acTitle">
-                    <a href=#acHotels><p>Click to Know More!</p></a>
+                    <a href=#hotelAnchor><p>Click to Know More!</p></a>
                 </div>
             </div>
 
@@ -56,38 +58,536 @@
                     <p>Is it just us, or are hostels getting better and <br>better looking these days?!</p>
                 </div>
                 <div class="acTitle">
-                    <a href=#acHostels><p>Click to Know More!</p></a>
+                    <a href=#hostelAnchor><p>Click to Know More!</p></a>
                 </div>
             </div>
 
             <div class="acPic3">
-                <p>Beds</p>
+                <p>Beds & Breakfast</p>
                 <img src="\Images\acBed.jpeg">
                 <div class="acDesc">
                     <p>Immerse yourself in Danish culture <br>in a bed and breakfast!</p>
                 </div>
                 <div class="acTitle">
-                    <a href=#acBeds><p>Click to Know More!</p></a>
+                    <a href=#bedAnchor><p>Click to Know More!</p></a>
                 </div>
             </div>
         </div>
 
-        <div class="divider"></div>
+        <div class="divider" id="hotelAnchor"></div>
 
         <section id="acHotels">
-            
+            <h1>Hotels</h1>
 
+            <div class="hotelContainer">
+                <h2>High-End Options</h2>
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\highendPic1.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Kurhotel Skodsborg
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">526 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Skodsborg Strandvej 139, Skodsborg 2942 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR 1146 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g2226149-d292424-Reviews-Kurhotel_Skodsborg-Skodsborg_Rudersdal_Municipality_Copenhagen_Region_Zealand.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\highendPic2.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Skt Petri
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">1632 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Krystalgade 22, Copenhagen 1172 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR 1122 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189541-d280740-Reviews-Skt_Petri-Copenhagen_Zealand.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\highendPic3.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Steigenberger Alsik - Hotel & Spa<br>
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">254 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Noerre Havnegade 21/25, Soenderborg 6400 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR 1400 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.co.uk/Hotel_Review-g227597-d15556198-Reviews-Steigenberger_Alsik_Hotel_Spa-Soenderborg_South_Jutland_Jutland.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+
+
+
+                <h2>Medium-Range & Budget Options</h2>
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acMid1.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Villa Provence
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">746 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Fredens Torv 12, Aarhus 8000 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR 688 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189530-d280794-Reviews-Villa_Provence-Aarhus_East_Jutland_Jutland.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acMid2.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Absalon Hotel
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">4314 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Helgolandsgade 15, Copenhagen 1653 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR 700 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189541-d634916-Reviews-Absalon_Hotel-Copenhagen_Zealand.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acMid3.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Comwell Kellers Park & Spa<br>
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">655 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> H.O. Wildenskovsvej 28, Boerkop, Vejle 7080 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR 750 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g1572418-d1582711-Reviews-Comwell_Kellers_Park_Spa-Boerkop_Vejle_South_Jutland_Jutland.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acMid4.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Andersen Boutique Hotel
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">3955 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Helgolandsgade 12, Copenhagen 1653 Denmark
+                        </p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR 670 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189541-d228436-Reviews-Andersen_Boutique_Hotel-Copenhagen_Zealand.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acMid5.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Wakeup Copenhagen Carsten Niebuhrs Gade<br>
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">4081 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Carsten Niebuhrs Gade 11, Copenhagen 1577 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR 300 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189541-d1479477-Reviews-Wakeup_Copenhagen_Carsten_Niebuhrs_Gade-Copenhagen_Zealand.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acMid6.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Go Hotel Saga
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">675 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Colbjørnsensgade 18/20, Copenhagen 1652 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR 311 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189541-d237633-Reviews-Go_Hotel_Saga-Copenhagen_Zealand.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="divider" id="hostelAnchor"></div>
         </section>
+
+
+
+
+
 
         <section id="acHostels">
+            <h1>Hostels</h1>
+            <div class="hotelContainer">
+                <div class="hotelHE-container">
 
+                    <div class="acHEPic">
+                        <img src="\Images\acHostel1.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Generator Copenhagen
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">3602 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Adelgade 5-7, Copenhagen 1304 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR369 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189541-d2153100-Reviews-Generator_Copenhagen-Copenhagen_Zealand.html#/media/2153100/473445859:p/?albumid=101&type=0&category=101" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acHostel2.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Next House Copenhagen
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">192 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Bernstorffsgade 27, Copenhagen 1577 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR229 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189541-d23984102-Reviews-Next_House_Copenhagen-Copenhagen_Zealand.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acHostel3.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Sleepcph
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">28 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Nyrnberggade 23, Copenhagen 2300 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR286 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189541-d13144041-Reviews-Sleepcph-Copenhagen_Zealand.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acHostel4.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Danhostel Odense Kragsbjerggaard<br>
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">13 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Kragsbjergvej 121, Odense 5230 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR256 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189524-d1385691-Reviews-Danhostel_Odense_Kragsbjerggaard-Odense_Funen_and_Islands.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+            </div>
             
+            <div class="divider" id="bedAnchor"></div>
         </section>
+
+
+
+
+
 
         <section id="acBeds">
+            <h1>Beds & Breakfast</h1>
+            <div class="hotelContainer">
+                <div class="hotelHE-container">
 
+                    <div class="acHEPic">
+                        <img src="\Images\acBed1.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>25hours Hotel Indre By
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">68 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Pilestræde 65, Copenhagen 1112 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR835 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189541-d23794712-Reviews-25hours_Hotel_Indre_By-Copenhagen_Zealand.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acBed2.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Fano Krogaard
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">13 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Langelinie 11, Fanoe 6720 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR573 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g189533-d21294250-Reviews-Fano_Krogaard-Fanoe_South_Jutland_Jutland.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+
+                <div class="hotelHE-container">
+
+                    <div class="acHEPic">
+                        <img src="\Images\acBed3.jpeg">
+                    </div>
+
+                    <div class="HEPicDesc">
+                        <h3>Skagen Harbour Hotel
+                            <span class="control">( </span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="control2"> )</span>
+                            <span class="review">372 Reviews</span>
+                        </h3>
+                        <p><i class="fa fa-map-marker" style="font-size:36px;color:red"></i> Vestre Strandvej 28, Skagen 9990 Denmark</p>
+                        <h4>Price Range:
+                            <span class="acPrice">
+                                ~MYR473 per Night
+                            </span>
+                        </h4>
+
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g285705-d1468089-Reviews-Skagen_Harbour_Hotel-Skagen_North_Jutland_Jutland.html" target="_blank"><button class="acRef" style="font-family: 'Inter Tight', sans-serif;
+                            font-weight: 500;">View More Information!</button></a>
+                    </div>
+                </div>
+            </div>
             
         </section>
 
+
+        <!-- CREDITS SECTION -->
+    <div class="credsSec">
+        <div class="credDivider"></div>
+        <div class="credDesc">
+            <h2>This website was brought to you by Group 1 from class TL9L in subject PCT0101 at FCI@MMU</h2>
+        </div>
+        <div class="credLink">
+            <a href="credits.html"><button class="credButton" style="font-family: 'Inter Tight', sans-serif;
+                font-weight: 500;">View Credits Page</button></a>
+        </div>
+    </div>
     </body>
 </html>

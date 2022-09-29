@@ -59,10 +59,17 @@ img {
     background-color: red;
     border: 2px solid black;
     border-radius: 50%;
+    transition: .44s ease all;
   }
 
 #topButton i {
     font-size: 100px;
+}
+
+#topButton:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 /* Master Styling END */
@@ -77,8 +84,9 @@ nav {
     position: sticky;
     text-decoration: none;
     justify-content: center;
-    overflow: hidden;
+    overflow: auto;
     z-index: 300;
+    border-bottom: 3px solid black;
 }
 .nav-bar {
     color: black;
@@ -364,16 +372,21 @@ td {
 
 /* accomodation.html START */
 
-.acHeader {
+.header {
     text-align: center;
 }
 
-.acHead-container h1 {
+.header-container h1 {
     font-size: 50px;
     font-weight: 700;
 }
 
-.acHeader {
+.header-container h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+}
+
+.header {
     position: relative;
     top: -10px;
     border: 1px solid black;
@@ -423,19 +436,19 @@ td {
 
 .acPic1 img {
     width: 100%;
-    transition: .6s ease-in-out;
+    transition: .4s ease-in-out;
     
 }
 
 .acPic2 img {
     width: 100%;
-    transition: .6s ease-in-out;
+    transition: .4s ease-in-out;
     
 }
 
 .acPic3 img {
     width: 100%;
-    transition: .6s ease-in-out;
+    transition: .4s ease-in-out;
     
 }
 
@@ -471,6 +484,104 @@ td {
     color: white;
 }
 
+#acHotels h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#acHostels h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#acBeds h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.hotelHE-container {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border: 3px solid black;
+    padding: 5px;
+    padding-top: 8px;
+}
+
+.hotelContainer h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.acHEPic {
+    float: left;
+}
+
+.acHEPic img {
+    width: 550px;
+    max-height: 366px;
+}
+
+.HEPicDesc {
+    position: relative;
+    top: -30px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 670px;
+}
+
+.HEPicDesc h3 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.control, .control2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 200;
+}
+
+.control {
+    margin-left: 6px;
+}
+
+.review {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.HEPicDesc p {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.acPrice {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
+.acRef {
+    padding: 14px 22px;
+    background-color: white; 
+    font-size: 24px;
+    border-radius: 12px;
+    transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.acRef:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #1A1A1A;
+}
+
+.checked {
+    color: orange;
+}
 /* credits.html START */
 .credDivider{
     height: 1px;
@@ -511,3 +622,28 @@ td {
     background-color: #1A1A1A;
 }
 
+/*Attraction.html START*/
+.hell{
+    font-size: 50px;
+}
+.heaven{
+    font-size:30px;
+}
+.cover{
+    object-fit: cover;
+}
+.boxed{
+    border: 1px solid black;
+    max-width: 87%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    left: 5%;
+}
+.bruh{
+    width: 95%;
+    margin-left:2%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
