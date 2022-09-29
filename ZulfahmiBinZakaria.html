@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zulfahmi Bin Zakaria CV</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <nav>
+        <div class="cred-nav" onclick="history.back()">
+            <span class="cred-comment">Click to Return</span>
+        </div>
+    </nav>
+
+    <h1 class="information">PROGRAMMER DETAILS</h1>
+    <div class="wrapper">
+    <img src="./Images/Profile.jpg" class="male" alt="male">
+    </div>
+    <h2 class="information"><b>ABOUT ME</b></h2>
+    <p class="p-color">
+        Hi my name is Zulfahmi bin Zakaria.I am a student from Multimedia University(MMU).I love cats and play video games.I know MMU as leading the digital future and was inspired to code as the generation today is all about technology.That is why I took the course on Information Technology (IT).There are many courses I can take from there.I wish to change the world for the better and work with others in the future.
+    </p>
+    <br><br>
+    <h2 class="information"><b>Personal Information</b></h2>
+    <p class="p-color">
+        <b>NAME:</b>Zulfahmi Bin Zakaria
+        <br><br>
+        <b>AGE:</b>18 Years
+        <br><br>
+        <b>LOCATION:</b>Kuala Lumpur,Malaysia
+        <br><br>
+        <b>FOUNDATION:</b>IT
+        <br><br>
+        <b>PHONE:</b>(+60)12-257-3898
+        <br><br>
+        <b>E-MAIL:</b><a href="https://mail.google.com">zulfahmibinzakariamoe@gmail.com</a>
+    </p>
+</body>
+
+<style>
+    nav {
+        background-color: aliceblue;
+        top: 0px;
+        text-align: center;
+        width: 100%;
+        position: sticky;
+        text-decoration: none;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 300;
+    }
+    
+    .cred-nav {
+        height: 50px;
+        transition: .33s ease all;
+    }
+
+    .cred-nav:hover{
+        cursor: pointer;
+        background-color: black;
+    }
+
+    .cred-nav:hover .cred-comment{
+        color: white;
+    }
+
+    .cred-comment {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        margin: auto;
+        display: inline-block;  
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper{
+        height: 50vh;
+        display: contents;
+        justify-content: left;
+        align-items: left;
+    }
+    .male {
+        width: 300px;
+        clip-path: circle();
+    }
+    body{
+        background: url("./Images/CV_background.jpg");
+        height: 200vh;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        }
+    .information {
+        color: #fff;
+        font-size: 60px;
+    }
+    .p-color{
+        color: aqua;
+        font-size: 30px;
+    }
+</style>
+</html>
