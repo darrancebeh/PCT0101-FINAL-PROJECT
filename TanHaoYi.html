@@ -4,6 +4,11 @@
         <title>Tan Hao Yi</title>
     </head>
     <body>
+        <nav>
+            <div class="cred-nav" onclick="history.back()">
+                <span class="cred-comment">Click to Return</span>
+            </div>
+        </nav>
         <center><img src="Images/TanHaoYiPic.jpeg" height="250" width="200"></center>
         <br><br>
         <div class="information">
@@ -65,6 +70,40 @@
         </div>
     </body>
     <style>
+        nav {
+        background-color: aliceblue;
+        top: 0px;
+        text-align: center;
+        width: 100%;
+        position: sticky;
+        text-decoration: none;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 300;
+    }
+    
+    .cred-nav {
+        height: 50px;
+        transition: .33s ease all;
+    }
+
+    .cred-nav:hover{
+        cursor: pointer;
+        background-color: black;
+    }
+
+    .cred-nav:hover .cred-comment{
+        color: white;
+    }
+
+    .cred-comment {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        margin: auto;
+        display: inline-block;  
+    }
+
         body {
             height: 100%;
             width: 100%;
