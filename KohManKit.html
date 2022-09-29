@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Koh Man Kit CV</title>
+</head>
+<style>
+/*Click to Return START*/
+nav {
+    background-color: aliceblue;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    text-decoration: none;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 300;
+}
+.cred-nav {
+    height: 50px;
+    transition: .33s ease all;
+}
+
+.cred-nav:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.cred-nav:hover .cred-comment{
+    color: white;
+}
+
+.cred-comment {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin: auto;
+    display: inline-block;  
+}
+/*CLick to Return END*/
+
+/*Content Styling START*/
+p{
+    font-size: 24px;
+    margin-left: 3%;
+}
+body{
+    background-color: rgba(187,255, 248, 0.8);
+}
+h2{
+    margin-left: 3%;
+}
+.resume{
+    background-image:linear-gradient(to bottom,rgba(0,118,255,0.8),rgba(187,255, 248, 0.9));
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.left{
+    display: inline-block;
+    position: relative;
+    float: left;
+    left:2%;
+    width: 20%;
+    border: 2px solid blue;
+    border-radius:10%;
+}
+.smolBox{
+    
+    max-width: 68%;
+    margin-left: 25%;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nya{
+    display: flex;
+}
+.conNya{
+    border: 1px solid black;
+    width: 22%;
+    margin-left: 2%;
+}
+</style>
+<body>
+    <!--NavBar START-->
+    <nav>
+        <div class="cred-nav" onclick="history.back()">
+            <span class="cred-comment">Click to Return</span>
+        </div>
+    </nav>
+    <!--Navbar END-->
+    <!--Content START-->
+    <h1 class="resume">
+        My Resume
+    </h1>
+    <p class="heaven">
+        Koh Man Kit
+    </p>
+    <img src="Images/KohManKitPic.jpeg" class="left">
+    <div class="smolBox">
+    <!--About Me START-->
+    <h1 style="margin-left: 3%;">
+        <u>About Me</u>
+    </h1>
+    <p>
+        Hello there, my name is Koh Man Kit. I currently primarely reside in Selangor, and I've been here since I was born. 
+        I only recently graduated from SMJK Yu Hua and is currently pursuing an Information Technology education at Multimedia 
+        University. I am absolutely in love with the learning environtment in this wonderful
+        university and I'm excited for anything it has to throw at me. The lecturer and students here are very friendly, and are
+        very easy to communicate with. I have a tendancy to stutter from time to time when speaking, but I'll try my best to 
+        not stutter.
+    </p>
+    </div>
+    <div id="social media" style="margin-left: 27%; margin-top:2% ;font-size:20px;">
+        <a href="https://www.facebook.com/zuck" style="color:blue">
+            <u>
+                <img src="Images/fb.png" width="15px">
+                My Facebook Page
+            </u>
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://www.youtube.com/channel/UChGsrlszlPxRUfAx6FJe2Ag" style="color:red;">
+            <u>
+                <img src="Images/ytb.png" width="15px">
+                My Youtube Channel
+            </u>
+        </a>
+    </div>
+    <!--About Me END-->
+    <br><br><br><br><br><br>
+    <!--Education START-->
+    <h1 class="hell" style="margin-left:3%;">
+        Education   
+    </h1>
+    <div id="Education" class="nya">
+        <div id="Kindergarden" class="conNya" style="background-image:url(Images/apk.png)">
+            <h2>
+                Kindergarden
+            </h2>
+            <p>
+                Some Apple King near my home I forgor
+            </p>
+        </div>
+        <div id="Primary School" class="conNya" style="background-image:url(Images/sch1.png)">
+            <h2>
+                Primary School
+            </h2>
+            <p>
+                SJK(C) Yu Hua
+            </p>
+        </div>
+        <div id="Secondary School" class="conNya" style="background-image:url(Images/sch2.png)">
+            <h2>
+                Secondary School
+            </h2>
+            <p>
+                SMJK Yu Hua
+            </p>
+        </div>
+        <div id="University" class="conNya" style="background-image:url(Images/mmu.png)">
+            <h2>
+                University
+            </h2>
+            <p>
+                Multimedia University!
+            </p>
+        </div>
+    </div>
+    <br><br>
+    <!--Education END-->
+    
+    <!--Hobby START-->
+    <h1 class="hell" style="margin-left:3%;">
+        Hobby
+    </h1>
+    <div id="hobb" class="nya">
+        <div id="Game" class="conNya" style="background-image:url(Images/gmRef.png)">
+            <h2>
+                Playing Video Games
+            </h2>
+            <br><br>
+        </div>
+        <div id="Reading" class="conNya" style="background-image:url(Images/bk1.png)">
+            <h2>
+                Reading Comics and Novels
+            </h2>
+            <br><br>
+        </div>
+        <div id="Music" class="conNya" style="background-image:url(Images/mscRef.png)">
+            <h2>
+                Vibing to musics
+            </h2>
+            <br><br>
+        </div>
+        <div id="Editing" class="conNya" style="background-image:url(Images/edvRef.png)">
+            <h2>
+                Editing Videos
+            </h2>
+            <br><br>
+        </div>
+    </div>
+    <br><br>
+</body>
+</html>
