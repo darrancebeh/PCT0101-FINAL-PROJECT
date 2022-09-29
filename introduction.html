@@ -4,23 +4,6 @@
         p{
             font-size:20px;
         }
-        .hell{
-            font-size: 50px;
-        }
-        .heaven{
-            font-size:30px;
-        }
-        .cover{
-            object-fit: cover;
-        }
-        .boxed{
-            border: 1px solid black;
-            max-width: 80%;
-            padding-left: 20px;
-            padding-right: 20px;
-            position: relative;
-            left: 5%;
-        }
     </style>
     <head>
         <meta charset="UTF-8">
@@ -28,167 +11,283 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
-        <title>My Tourism Webpage</title>
+        <title>An Intro!</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
-    <body>
-        <nav>
-            <ul class="nav-bar">
-                <li><a class="inactive" href="index.html">Home</a></li>
-                <li><a class="inactive" href="introduction.html">Introduction</a></li>
-                <li><a class="inactive" href="attractions.html">Attractions</a></li>
-                <li><a class="active" href="activities.html">Activities</a></li>
-                <li><a class="inactive" href="fnb.html">Foods & Beverages</a></li>
-                <li><a class="inactive" href="shopping.html">Shopping</a></li>
-                <li><a class="inactive" href="transportation.html">Transportation</a></li>
-                <li><a class="inactive" href="accomodation.html">Accomodation</a></li>
-                <li><a class="inactive" href="safety.html">Health & Safety</a></li>
-            </ul>
-        </nav>
-        <button onclick="scrollToTop()" id="topButton" title="Go to top">
-            <i class="material-icons">arrow_upward</i>
-        </button>
-        <div> <!--Introduction Header-->
-            <h1>A Great Place to Travel</h1>
-        </div>
-        <img src="Images/intro-pic-1.png" height="300px" width="100%" class="cover"/>
-        <p style="margin-left:2%;"> <!--First Paragraph-->
-            As one of the best tourist destinations in Scandinavia, there’s at least one thing for every tourist to experience in Denmark.
-            But unfortunately, a lot of travellers are unaware of the greatness of Denmark when they're choosing a country to travel to.
-            In this article, we are going to briefly give an comprehensive introduction to this wonderful country.
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li><a class="inactive" href="index.html">Home</a></li>
+            <li><a class="inactive" href="introduction.html">Introduction</a></li>
+            <li><a class="inactive" href="attractions.html">Attractions</a></li>
+            <li><a class="active" href="activities.html">Activities</a></li>
+            <li><a class="inactive" href="fnb.html">Foods & Beverages</a></li>
+            <li><a class="inactive" href="shopping.html">Shopping</a></li>
+            <li><a class="inactive" href="transportation.html">Transportation</a></li>
+            <li><a class="inactive" href="accomodation.html">Accomodation</a></li>
+            <li><a class="inactive" href="safety.html">Health & Safety</a></li>
+        </ul>
+    </nav>
+    <button onclick="scrollToTop()" id="topButton" title="Go to top">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <div> <!--Introduction Header-->
+        <h1>A Great Place to Travel</h1>
+    </div>
+    <img src="Images/intro-pic-1.png" height="300px" width="100%" class="cover"/>
+    <p style="margin-left:2%;"> <!--First Paragraph-->
+        As one of the best tourist destinations in Scandinavia, there’s at least one thing for every tourist to experience in Denmark.
+        But unfortunately, a lot of travellers are unaware of the greatness of Denmark when they're choosing a country to travel to.
+        In this article, we are going to briefly give an comprehensive introduction to this wonderful country.
+    </p>
+
+    <article class="boxed">
+        <!--History START-->
+        <h1 class="hell">
+            History
+        </h1>
+        <img src="Images/denHis.jpg" height="500px" width="100%" class="cover"/>
+        <p>
+            Denmark, country occupying the peninsula of Jutland (Jylland), which extends northward from the centre of continental western Europe, 
+            and an archipelago of more than 400 islands to the east of the peninsula. 
+            Jutland makes up more than two-thirds of the country’s total land area; 
+            at its northern tip is the island of Vendsyssel-Thy (1,809 square miles [4,685 square km]), 
+            separated from the mainland by the Lim Fjord. 
+            The largest of the country’s islands are Zealand (Sjælland; 2,715 square miles [7,031 square km]), 
+            Vendsyssel-Thy, and Funen (Fyn; 1,152 square miles [2,984 square km]). Along with Norway and Sweden, 
+            Denmark is a part of the northern European region known as Scandinavia. 
+            The country’s capital, Copenhagen (København), is located primarily on Zealand; 
+            the second largest city, Århus, is the major urban centre of Jutland.
+            <br><br>
+            Though small in territory and population, Denmark has nonetheless played a notable role in European history. 
+            In prehistoric times, Danes and other Scandinavians reconfigured European society when the Vikings undertook marauding, 
+            trading, and colonizing expeditions. During the Middle Ages, 
+            the Danish crown dominated northwestern Europe through the power of the Kalmar Union. In later centuries, 
+            shaped by geographic conditions favouring maritime industries, 
+            Denmark established trading alliances throughout northern and western Europe and beyond, 
+            particularly with Great Britain and the United States. 
+            Making an important contribution to world culture, Denmark also developed humane governmental institutions and cooperative, 
+            nonviolent approaches to problem solving.
         </p>
-        <article class="boxed">
-            <h1 class="hell">
-                History
-            </h1>
-            <p>
-                Denmark, country occupying the peninsula of Jutland (Jylland), which extends northward from the centre of continental western Europe, 
-                and an archipelago of more than 400 islands to the east of the peninsula. 
-                Jutland makes up more than two-thirds of the country’s total land area; 
-                at its northern tip is the island of Vendsyssel-Thy (1,809 square miles [4,685 square km]), 
-                separated from the mainland by the Lim Fjord. 
-                The largest of the country’s islands are Zealand (Sjælland; 2,715 square miles [7,031 square km]), 
-                Vendsyssel-Thy, and Funen (Fyn; 1,152 square miles [2,984 square km]). Along with Norway and Sweden, 
-                Denmark is a part of the northern European region known as Scandinavia. 
-                The country’s capital, Copenhagen (København), is located primarily on Zealand; 
-                the second largest city, Århus, is the major urban centre of Jutland.
-                <br><br>
-                Though small in territory and population, Denmark has nonetheless played a notable role in European history. 
-                In prehistoric times, Danes and other Scandinavians reconfigured European society when the Vikings undertook marauding, 
-                trading, and colonizing expeditions. During the Middle Ages, 
-                the Danish crown dominated northwestern Europe through the power of the Kalmar Union. In later centuries, 
-                shaped by geographic conditions favouring maritime industries, 
-                Denmark established trading alliances throughout northern and western Europe and beyond, 
-                particularly with Great Britain and the United States. 
-                Making an important contribution to world culture, Denmark also developed humane governmental institutions and cooperative, 
-                nonviolent approaches to problem solving.
-                </p>
-                <br><br>
-                <h1 class="hell" >
-                    Geographical Features
-                </h1>
-            <p>
-                Denmark is attached directly to continental Europe at Jutland’s 42-mile (68-km) boundary with Germany. 
-                Other than this connection, all the frontiers with surrounding countries are maritime, 
-                including that with the United Kingdom to the west across the North Sea. 
-                Norway and Sweden lie to the north, separated from Denmark by sea lanes linking the North Sea to the Baltic Sea. 
-                From west to east, these passages are called the Skagerrak, the Kattegat, and The Sound (Øresund). 
-                Eastward in the Baltic Sea lies the Danish island of Bornholm.
-                <br><br>
-                Denmark proper is a lowland area that lies, on average, not more than 100 feet (30 metres) above sea level. 
-                The country’s highest point, reaching only 568 feet (173 metres), 
-                is Yding Forest Hill (Yding Skovhøj) in east-central Jutland. 
-                The basic contours of the Danish landscape were shaped at the end of the Pleistocene Epoch 
-                (i.e., about 2,600,000 to 11,700 years ago) by the so-called Weichsel glaciation. 
-                This great glacial mass withdrew temporarily during several warmer interstadial periods, 
-                but it repeatedly returned to cover the land until it retreated to the Arctic north for the last time 
-                about 10,000 years ago. As a result, the barren layers of chalk and limestone that earlier constituted the 
-                land surface acquired a covering of soil that built up as the Weichsel retreated, forming low, hilly, and 
-                generally fertile moraines that diversify the otherwise flat landscape.
-                <br><br>
-                A scenic boundary representing the extreme limit reached by the Scandinavian and Baltic ice sheets runs 
-                from Nissum Fjord on the western coast of Jutland eastward toward Viborg, 
-                from there swinging sharply south down the spine of the peninsula toward Åbenrå and the German city of Flensburg, 
-                just beyond the Danish frontier. The ice front is clearly marked in the contrast between the 
-                flat western Jutland region, composed of sands and gravels strewn by meltwaters that poured west from the 
-                shrinking ice sheet, and the fertile loam plains and hills of eastern and northern Denmark, 
-                which become markedly sandier toward the prehistoric ice front.
-            </p>
-            <h1 class="hell">
-                Regions and Cities
-            </h1>
-            <p>
-                There's a total of 5 major regions in Denmark, and they are
-            </p>
-            <h1 class="heaven">
-                Region Hovedstaden
-            </h1>
-            <ul>
-                <li><a href="attractions.html#cope">Copenhagen</a></li>
-                <li><a href="attractions.html#frede">Frederiksberg</a></li>
-                <li><a href="attractions.html#gent">Gentofte</a></li>
-                <li><a href="attractions.html#hels">Helsingør</a></li>
-                <li><a href="attractions.html#hill">Hillerød</a></li>
-            </ul>
-            <h1 class="heaven">
-                Region Midtjylland
-            </h1>
-            <ul>
-                <li><a href="attractions.html#arhu">Århus</a></li>
-                <li><a href="attractions.html#hern">Herning</a></li>
-                <li><a href="attractions.html#hols">Holstebro</a></li>
-                <li><a href="attractions.html#horn">Horsens</a></li>
-                <li><a href="attractions.html#rand">Randers</a></li>
-                <li><a href="attractions.html#silk">Silkeborg</a></li>
-                <li><a href="attractions.html#skiv">Skive</a></li>
-                <li><a href="attractions.html#vibo">Viborg</a></li>
-            </ul>
-            <h1 class="heaven">
-                Region Nordjylland
-            </h1>
-            <ul>
-                <li><a href="attractions.html#albo">Ålborg</a></li>
-                <li><a href="attractions.html#fred2">Frederikshavn</a></li>
-                <li><a href="attractions.html#hjor">Hjørring</a></li>
-                <li><a href="attractions.html#norr">Nørresundby</a></li>
-                <li><a href="attractions.html#skag">Skagen</a></li>
-                <li><a href="attractions.html#this">Thisted</a></li>
-            </ul>
-            <h1 class="heaven">
-                Region Sjælland
-            </h1>
-            <ul>
-                <li><a href="attractions.html#holb">Holbæk</a></li>
-                <li><a href="attractions.html#kalu">Kalundborg</a></li>
-                <li><a href="attractions.html#koge">Køge</a></li>
-                <li><a href="attractions.html#mari">Maribo</a></li>
-                <li><a href="attractions.html#naks">Nakskov</a></li>
-                <li><a href="attractions.html#nyko">Nykøbing Falster</a></li>
-                <li><a href="attractions.html#rosk">Roskilde</a></li>
-                <li><a href="attractions.html#slag">Slagelse</a></li>
-                <li><a href="attractions.html#soro">Sorø</a></li>
-                <li><a href="attractions.html#vord">Vordingborg</a></li>
-            </ul>
-            <h1 class="heaven">
-                Region Syddanmark
-            </h1>
-            <ul>
-                <li><a href="attractions.html#aben">Åbenrå</a></li>
-                <li><a href="attractions.html#esbj">Esbjerg</a></li>
-                <li><a href="attractions.html#fred3">Fredericia</a></li>
-                <li><a href="attractions.html#hade">Haderslev</a></li>
-                <li><a href="attractions.html#kold">Kolding</a></li>
-                <li><a href="attractions.html#nybo">Nyborg</a></li>
-                <li><a href="attractions.html#oden">Odense</a></li>
-                <li><a href="attractions.html#ribe">Ribe</a></li>
-                <li><a href="attractions.html#sond">Sønderborg</a></li>
-                <li><a href="attractions.html#sven">Svendborg</a></li>
-                <li><a href="attractions.html#tond">Tønder</a></li>
-                <li><a href="attractions.html#vejl">Vejle</a></li>
-            </ul>
-        </article>
-    </body>
+        <!--History END-->
+
+        <!--Geography START-->
+        <h1 class="hell" >
+            Geographical Features
+        </h1>
+        <img src="Images/denMap.jpg" width="500px" style="display: block; margin-left: auto; margin-right: auto;" class="cover"/>
+        <p>
+            Denmark is attached directly to continental Europe at Jutland’s 42-mile (68-km) boundary with Germany. 
+            Other than this connection, all the frontiers with surrounding countries are maritime, 
+            including that with the United Kingdom to the west across the North Sea. 
+            Norway and Sweden lie to the north, separated from Denmark by sea lanes linking the North Sea to the Baltic Sea. 
+            From west to east, these passages are called the Skagerrak, the Kattegat, and The Sound (Øresund). 
+            Eastward in the Baltic Sea lies the Danish island of Bornholm.
+            <br><br>
+            Denmark proper is a lowland area that lies, on average, not more than 100 feet (30 metres) above sea level. 
+            The country’s highest point, reaching only 568 feet (173 metres), 
+            is Yding Forest Hill (Yding Skovhøj) in east-central Jutland. 
+            The basic contours of the Danish landscape were shaped at the end of the Pleistocene Epoch 
+            (i.e., about 2,600,000 to 11,700 years ago) by the so-called Weichsel glaciation. 
+            This great glacial mass withdrew temporarily during several warmer interstadial periods, 
+            but it repeatedly returned to cover the land until it retreated to the Arctic north for the last time 
+            about 10,000 years ago. As a result, the barren layers of chalk and limestone that earlier constituted the 
+            land surface acquired a covering of soil that built up as the Weichsel retreated, forming low, hilly, and 
+            generally fertile moraines that diversify the otherwise flat landscape.
+            <br><br>
+            A scenic boundary representing the extreme limit reached by the Scandinavian and Baltic ice sheets runs 
+            from Nissum Fjord on the western coast of Jutland eastward toward Viborg, 
+            from there swinging sharply south down the spine of the peninsula toward Åbenrå and the German city of Flensburg, 
+            just beyond the Danish frontier. The ice front is clearly marked in the contrast between the 
+            flat western Jutland region, composed of sands and gravels strewn by meltwaters that poured west from the 
+            shrinking ice sheet, and the fertile loam plains and hills of eastern and northern Denmark, 
+            which become markedly sandier toward the prehistoric ice front.
+        </p>
+        <!--Geography END-->
+
+        <!--Region And Cities START-->
+        <h1 class="hell">
+            Regions and Cities
+        </h1>
+        <p>
+            There's a total of 5 major regions in Denmark, and they are
+        </p>
+        <p style="font-size:10px">
+            You can click on them ;)
+        </p>
+        <div id="regionOption">
+        <h1 class="heaven">
+            Region Hovedstaden
+        </h1>
+        <ul>
+            <li><a href="attractions.html#cope">Copenhagen</a></li>
+            <li><a href="attractions.html#frede">Frederiksberg</a></li>
+            <li><a href="attractions.html#gent">Gentofte</a></li>
+            <li><a href="attractions.html#hels">Helsingør</a></li>
+            <li><a href="attractions.html#hill">Hillerød</a></li>
+        </ul>
+        <h1 class="heaven">
+            Region Midtjylland
+        </h1>
+        <ul>
+            <li><a href="attractions.html#arhu">Århus</a></li>
+            <li><a href="attractions.html#hern">Herning</a></li>
+            <li><a href="attractions.html#hols">Holstebro</a></li>
+            <li><a href="attractions.html#horn">Horsens</a></li>
+            <li><a href="attractions.html#rand">Randers</a></li>
+            <li><a href="attractions.html#silk">Silkeborg</a></li>
+            <li><a href="attractions.html#skiv">Skive</a></li>
+            <li><a href="attractions.html#vibo">Viborg</a></li>
+        </ul>
+        <h1 class="heaven">
+            Region Nordjylland
+        </h1>
+        <ul>
+            <li><a href="attractions.html#albo">Ålborg</a></li>
+            <li><a href="attractions.html#fred2">Frederikshavn</a></li>
+            <li><a href="attractions.html#hjor">Hjørring</a></li>
+            <li><a href="attractions.html#norr">Nørresundby</a></li>
+            <li><a href="attractions.html#skag">Skagen</a></li>
+            <li><a href="attractions.html#this">Thisted</a></li>
+        </ul>
+        <h1 class="heaven">
+            Region Sjælland
+        </h1>
+        <ul>
+            <li><a href="attractions.html#holb">Holbæk</a></li>
+            <li><a href="attractions.html#kalu">Kalundborg</a></li>
+            <li><a href="attractions.html#koge">Køge</a></li>
+            <li><a href="attractions.html#mari">Maribo</a></li>
+            <li><a href="attractions.html#naks">Nakskov</a></li>
+            <li><a href="attractions.html#nyko">Nykøbing Falster</a></li>
+            <li><a href="attractions.html#rosk">Roskilde</a></li>
+            <li><a href="attractions.html#slag">Slagelse</a></li>
+            <li><a href="attractions.html#soro">Sorø</a></li>
+            <li><a href="attractions.html#vord">Vordingborg</a></li>
+        </ul>
+        <h1 class="heaven">
+            Region Syddanmark
+        </h1>
+        <ul>
+            <li><a href="attractions.html#aben">Åbenrå</a></li>
+            <li><a href="attractions.html#esbj">Esbjerg</a></li>
+            <li><a href="attractions.html#fred3">Fredericia</a></li>
+            <li><a href="attractions.html#hade">Haderslev</a></li>
+            <li><a href="attractions.html#kold">Kolding</a></li>
+            <li><a href="attractions.html#nybo">Nyborg</a></li>
+            <li><a href="attractions.html#oden">Odense</a></li>
+            <li><a href="attractions.html#ribe">Ribe</a></li>
+            <li><a href="attractions.html#sond">Sønderborg</a></li>
+            <li><a href="attractions.html#sven">Svendborg</a></li>
+            <li><a href="attractions.html#tond">Tønder</a></li>
+            <li><a href="attractions.html#vejl">Vejle</a></li>
+        </ul>
+        </div>
+        <!--Region and Cities END-->
+
+        <!--Population START-->
+        <h1 class="hell">
+            Populations
+        </h1>
+        <img src="Images/denPpl.jpg" height="300px" width="100%" class="cover">
+        <p>
+            The people of Denmark are known as Danes. They are Nordic Scandinavians, many of which are blond, blue-eyed, and 
+            tall. In the southern part of the country, some people have German ancestry.
+            <br><br>
+            <img src="Images/denDemog.png" width="500px" style="display: block; margin-left: auto; margin-right: auto;" class="cover"/>
+            The population of Denmark, as registered by Statistics Denmark, was 5.825 million in April 2020. Denmark has 
+            one of the oldest populations in the world, with the average age of 41.9 years, with 0.97 males per female. 
+            Despite a low birth rate, the population is growing at an average annual rate of 0.59% because of net 
+            immigration and increasing longevity. The World Happiness Report frequently ranks Denmark's population as the 
+            happiest in the world. This has been attributed to the country's highly regarded education and 
+            health care systems, and its low level of income inequality.
+            <br><br>
+            Denmark is a historically homogeneous nation. However, as with its Scandinavian neighbours, Denmark has recently 
+            transformed from a nation of net emigration, up until World War II, to a nation of net immigration. Today, residence 
+            permits are issued mostly to immigrants from other EU countries (54% of all non-Scandinavian immigrants in 2017). 
+            Another 31% of residence permits were study- or work-related, 4% were issued to asylum seekers and 10% to persons 
+            who arrive as family dependants. Overall, the net migration rate in 2017 was 2.1 migrant(s)/1,000 population, 
+            somewhat lower than the United Kingdom and the other Nordic countries.
+            <br><br>
+            <img src="Images/bunchFlag.jpg"width="50%" style="display: block; margin-left: auto; margin-right: auto;" class="cover"/>
+            There are no official statistics on ethnic groups, but according to 2020 figures from Statistics Denmark, 86.11% 
+            of the population in Denmark was of Danish descent (including Faroese and Greenlandic), defined as having at least 
+            one parent who was born in the Kingdom of Denmark and holds Danish Nationality. The remaining 13.89% were 
+            of foreign background, defined as immigrants or descendants of recent immigrants. With the same definition, the 
+            most common countries of origin were Turkey, Poland, Syria, Germany, Iraq, Romania, Lebanon, Pakistan, Bosnia and 
+            Herzegovina, and Somalia.
+        </p>
+        <!--Population END-->
+
+        <!--Language START-->
+        <h1 class="hell">
+            Languages
+        </h1>
+        <img src="Images/jesusChrist.jpg" width="150px" height="100px" style="float:left">
+        <p style="padding-left: 15%;">
+            Christianity is the dominant religion in Denmark. In January 2020, 74.3% of the population of Denmark were 
+            members of the Church of Denmark (Den Danske Folkekirke), the officially established church, which is Protestant in 
+            classification and Lutheran in orientation. The membership percentage have been in steadily decline 
+            since the 1970s, mainly as fewer newborns are being baptised into it. Only 3% of the population regularly 
+            attend Sunday services and only 19% of Danes consider religion to be an important part of their life.
+        </p>
+        <p>
+            Christianity is the dominant religion in Denmark. In January 2020, 74.3% of the population of Denmark were 
+            members of the Church of Denmark (Den Danske Folkekirke), the officially established church, which is Protestant in 
+            classification and Lutheran in orientation. The membership percentage have been in steadily decline 
+            since the 1970s, mainly as fewer newborns are being baptised into it. Only 3% of the population regularly 
+            attend Sunday services and only 19% of Danes consider religion to be an important part of their life.
+            <br><br>
+            According to a 2010 Eurobarometer Poll, 28% of Danish nationals polled responded that they "believe there is a God", 47% 
+            responded that they "believe there is some sort of spirit or life force" and 24% responded that they "do not believe there 
+            is any sort of spirit, God or life force". Another poll, carried out in 2009, found that 25% of Danes believe Jesus is the 
+            son of God, and 18% believe he is the saviour of the world.
+        </p>
+        <!--Language END-->
+
+        <!--Climate START-->
+        <h1 class="hell">
+            Climate
+        </h1>
+        <img src="Images/denWin.jpg" width="300px" height="200px" style="float:right">
+        <p>
+            Denmark has a temperate climate, characterised by mild winters, with mean temperatures in January of 1.5 °C, and 
+            cool summers, with a mean temperature in August of 17.2 °C. The most extreme temperatures recorded in 
+            Denmark, since 1874 when recordings began, was 36.4 °C in 1975 and −31.2 °C in 1982. Denmark has an 
+            average of 179 days per year with precipitation, on average receiving a total of 765 millimetres per year; autumn 
+            is the wettest season and spring the driest. The position between a continent and an ocean means that the 
+            weather is often unstable.
+            <br><br>
+            Because of Denmark's northern location, there are large seasonal variations in daylight. There are short days 
+            during the winter with sunrise coming around 8:45 am and sunset 3:45 pm (standard time), as well as long summer 
+            days with sunrise at 4:30 am and sunset at 10 pm (daylight saving time).
+        </p>
+        <!--Climate END-->
+
+        <!--Ecology START-->
+        <h1 class="hell">
+            Ecology
+        </h1>
+        <img src="Images/denFor.jpg" height="300px" width="100%" class="cover">
+        <p>
+            Denmark belongs to the Boreal Kingdom and can be subdivided into two ecoregions: the Atlantic mixed forests and Baltic 
+            mixed forests. Almost all of Denmark's primeval temperate forests have been destroyed or fragmented, 
+            chiefly for agricultural purposes during the last millennia. The deforestation has created large swaths of 
+            heathland and devastating sand drifts. In spite of this, there are several larger second growth woodlands in 
+            the country and, in total, 12.9% of the land is now forested. Norway spruce is the most widespread tree (2017); 
+            an important tree in the Christmas tree production. Denmark holds a Forest Landscape Integrity Index mean score of 
+            0.5/10, ranking it 171st globally out of 172 countries—behind only San Marino.
+            <br><br>
+            Roe deer occupy the countryside in growing numbers, and large-antlered red deer can be found in the sparse woodlands of Jutland. Denmark is also home to smaller mammals, such as polecats, hares and hedgehogs.[68] Approximately 400 bird species inhabit Denmark and about 160 of those breed in the country.[69] Large marine mammals include healthy populations of Harbour porpoise, growing numbers of pinnipeds and occasional visits of large whales, including blue whales and orcas. Cod, herring and plaice are abundant culinary fish in Danish waters and form the basis for a large fishing industry.[70]
+        </p>
+    </article>
+    <br><br>
+    <p style="margin-left:5%;">
+        Well, that is a brief introduction to Denmark! Read further in the website for more informations!
+    </p>
+</body>
 </html>
