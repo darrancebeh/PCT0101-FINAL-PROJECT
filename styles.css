@@ -641,3 +641,77 @@ td {
     padding-right: 20px;
     position: relative;
 }
+
+/*Safety.html START*/
+.SafetyTitle h1 {
+    font-family: 'Ink free', Times, serif;
+    font-size: 40px;
+}
+
+.descSafety h2 {
+    font-family: 'Ink free', Times, serif;
+    font-size: 28px;
+}
+
+.descSafety h3 {
+    font-size: 18px;
+}
+
+
+.descSafety h4 {
+    font-size: 18px;
+}
+
+.descSafety p {
+    font-size: 20px;
+}
+
+.descSafety b {
+    color: #3271ae;
+}
+/*Safety.html END*/
+
+/*Shopping.html START*/
+.StartShop p {
+    font-family: 'Ink free', Times, serif;
+    font-size: 20px;
+}
+
+.ShopTittle h1 {
+    font-family: 'Ink free', Times, serif;
+    font-size: 40px;
+}
+
+.rinfoImg {
+    display: inline-flex;
+    width: 100%;
+}
+
+.descShopping {
+    display: inline-block;
+    width: 100%;
+    padding: 2%;
+    background-color: #430852;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descShopping h2 {
+    font-family: 'Segoe print', Times, serif;
+    color: #e72ca5;
+}
+
+.descShopping p {
+    font-family: 'Ink free', Times, serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.descShopping li {
+    color: #c51818;
+}
+
+.EndingShop p {
+    font-family: 'Ink free', Times, serif;
+    font-size: 20px;
+}
+/*Shopping.html END*/
