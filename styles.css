@@ -212,6 +212,7 @@ nav {
   background-color: #1A1A1A;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-10px);
+  cursor: pointer;
 }
 
 @keyframes slideIn {
